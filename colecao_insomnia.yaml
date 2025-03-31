@@ -1,0 +1,102 @@
+type: collection.insomnia.rest/5.0
+name: Teste Intuitive Care
+meta:
+  id: wrk_ac0ec968dcb04238874511b570260606
+  created: 1743026575036
+  modified: 1743026575036
+collection:
+  - url: http://localhost:8082/operadoras/buscar
+    name: New Request
+    meta:
+      id: req_956e1bc83f1d442ab3e6b8a8f73a3054
+      created: 1743026580232
+      modified: 1743455679618
+      isPrivate: false
+      sortKey: -1743026580232
+    method: GET
+    body:
+      mimeType: application/json
+    parameters:
+      - id: pair_9689be84e755464481fa963f1947c784
+        disabled: true
+      - id: pair_38332d2f812d4839b2ad03e3424fa1a8
+        name: term
+        value: UNIODONTO
+        disabled: false
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.0
+        id: pair_61b456e1fa444b53802ebc45be7d4b1a
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8082/operadoras/buscar
+    name: New Request
+    meta:
+      id: req_613109d9f33c45f9814b70970c3815ca
+      created: 1743457348364
+      modified: 1743457377549
+      isPrivate: false
+      sortKey: -1743457348364
+    method: GET
+    parameters:
+      - id: pair_9c43d19940b145da967fb3ee293dfe43
+        name: term
+        value: "00006037000127"
+        disabled: false
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8082/operadoras/buscar
+    name: New Request
+    meta:
+      id: req_7c3d29c66e804538ba5df39e4d3a9942
+      created: 1743457386659
+      modified: 1743457408838
+      isPrivate: false
+      sortKey: -1743457386659
+    method: GET
+    parameters:
+      - id: pair_3fa012dcd35046a2a582d7d5267ec3ca
+        name: term
+        value: "VIDAPLAN SAÚDE LTDA. "
+        disabled: false
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_76e56ef16b49f4f5f882a07d44ac8566dbf7e182
+    created: 1743026575044
+    modified: 1743026575044
+environments:
+  name: Base Environment
+  meta:
+    id: env_76e56ef16b49f4f5f882a07d44ac8566dbf7e182
+    created: 1743026575041
+    modified: 1743026575041
+    isPrivate: false
